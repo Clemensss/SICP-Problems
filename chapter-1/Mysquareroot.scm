@@ -1,3 +1,7 @@
+;Not an exercise, but I tried to implement it
+;by myself just to have a deeper understanding
+;of what is going on in the section 1.1.7
+
 (define (square x)
     (* x x))
 (define (abs x)

@@ -1,3 +1,5 @@
+;Exercise 1.7 section 1.1.7
+
 (define(cube x)(* x x x))
 (define(square x)(* x x))
 (define(absolute x)
