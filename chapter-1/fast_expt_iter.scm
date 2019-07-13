@@ -6,8 +6,14 @@
 
 (define (fast-expt a b n)
     (cond ((= n 1) a)
-	  ((even? n) (fast-expt (* a (square b)) b (/ n 2)))
-	  (else (fast-expt (* a b) b (- n 1)))
+
+	  ((even? n) 
+		(fast-expt (* a (square b)) b (/ n 2))
+	  )
+
+	  (else 
+		(fast-expt (* a b) b (- n 1))
+	  )
     )
 )
 
