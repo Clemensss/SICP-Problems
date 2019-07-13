@@ -1,7 +1,7 @@
 (define (square x)(* x x))
 
 (define (even? x)
-    (= (remainder n 2) 0)
+    (= (remainder x 2) 0)
 )
 
 (define (fast-expt a b n)
